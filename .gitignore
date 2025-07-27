@@ -1,6 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
 __pycache__/
 *.py[cod]
-.DS_Store
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# Virtual environments
 venv/
+volatility/  # Your custom venv folder
 .env
+.env.local
+
+# Streamlit
 .streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# User-generated outputs
+outputs/
